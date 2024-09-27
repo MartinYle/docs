@@ -5,79 +5,7 @@ layout: home
 
 <html>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
-<script>
-anime({
-  targets: '.kentta_1, .kentta_2, .kentta_3, .kentta_1a, .kentta_2b, .kentta_3c',
-  keyframes: [
-    {translateX: '100%', opacity: 0, duration: 1000},
-    {translateX: '0%', opacity: 1, duration: 1000},
-  ],
-  loop: true,
-  delay: anime.stagger(150),
-  easing: 'easeInOutExpo',
-});
-</script>
-<script>
-anime({
-  targets: '.kentta_2e, .kentta_1d, .kentta_3f',
-  keyframes: [
-{translateX: '-100%', opacity: 0, duration: 1000},
-{translateX: '0%', opacity: 1, duration: 1000},
-],
-  loop: true,
-  delay: anime.stagger(150),
-  easing: 'easeInOutExpo',
-});
-</script>
-<script>
-anime({
-  targets: '.kentta_1g, .kentta_3i',
-  keyframes: [
-{translateX: '-100%', opacity: 0, duration: 1000},
-{translateX: '0%', opacity: 1, duration: 1000},
-],
-  loop: true,
-  delay: anime.stagger(150),
-  easing: 'easeInOutExpo',
-});
-</script>
-<script>
-anime({
-  targets: '.kentta_2h',
-  keyframes: [
-{translateX: '100%', opacity: 0, duration: 1000},
-{translateX: '0%', opacity: 1, duration: 1000},
-],
-  delay: 150,
-  loop: true,
-  easing: 'easeInOutExpo',
-});
-</script>
-<script>
-anime({
-  targets: '.kentta_1j',
-  keyframes: [
-{translateY: '100%', opacity: 0, duration: 1000},
-{translateY: '0%', opacity: 1, duration: 1000},
-],
-  delay: 150,
-  loop: true,
-  easing: 'easeInOutExpo',
-});
-</script>
-<script>
-anime({
-  targets: '.kentta_3l, .kentta_2k',
-  keyframes: [
-{translateX: '100%', opacity: 0, duration: 1000},
-{translateX: '0%', opacity: 1, duration: 1000},
-],
-  loop: true,
-  delay: anime.stagger(150),
-  easing: 'easeInOutExpo',
-});
-</script>
-<style>
+  <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -91,10 +19,6 @@ anime({
   --breaking-color:             rgb(233, 14, 67);
 }
 
-
-body {
-  margin: 0;
-}
 .main {
   display: flex;
   justify-content: center;
@@ -242,45 +166,5 @@ body {
     <div class="kentat kentta_2"><div id="f1">Kenttä 2</div></div>
     <div class="kentat kentta_3"><div id="f2">Kenttä 3</div></div>
   </div>
-</div>
-<div id="main" class="main">
-  ##Kaksi vierekkäin oikealla yksi alapuolella
-    <div class="planssi2">
-    <div class="kentat kentta_1a"><div id="f0">Kenttä 1</div></div>
-    <div class="kentat kentta_2b"><div id="f1">Kenttä 2</div></div>
-    <div class="break"></div>
-    <div class="kentat kentta_3c"><div id="f2">Kenttä 3</div></div>
-  </div>
-</div>
-<div id="main" class="main">
-  ##Kaksi vierekkäin vasemmalla yksi alapuolella
-    <div class="planssi2">
-    <div class="kentat kentta_1d"><div id="f0">Kenttä 1</div></div>
-    <div class="kentat kentta_2e"><div id="f1">Kenttä 2</div></div>
-    <div class="break"></div>
-    <div class="kentat kentta_3f"><div id="f2">Kenttä 3</div></div>
-  </div>
-</div>
-<div id="main" class="main">
-  ##Kaksi vierekkäin vasemmalla ja oikealla yksi alapuolella
-    <div class="planssi2">
-    <div class="kentat kentta_1g"><div id="f0">Kenttä 1</div></div>
-    <div class="kentat kentta_2h"><div id="f1">Kenttä 2ghj</div></div>
-    <div class="break"></div>
-    <div class="kentat kentta_3i"><div id="f2">Kenttä 3</div></div>
-  </div>
-</div>
-<div id="main" class="main">
-  #Kaksi vierekkäin vasemmalla ja oikealla yksi alapuolella
-    <div class="planssi2">
-    <div class="flex-container1">
-    <div class="kentat kentta_1j"><div id="f0">Kenttä 1</div></div>
-    <div class="flex-item-cont">
-    </div>
-    <div class="flex-container2">
-    <div class="kentat kentta_3l"><div id="f2">Kenttä 3</div></div>
-    <div class="kentat kentta_2k"><div id="f1">Kenttä 2</div></div>
-    </div>
-    </div>
 </div>
 </html>
