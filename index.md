@@ -4,6 +4,7 @@ layout: home
 ---
 
 <html>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
 <script>
 anime({
   targets: '.kentta_1, .kentta_2, .kentta_3, .kentta_1a, .kentta_2b, .kentta_3c',
