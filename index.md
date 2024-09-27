@@ -2,11 +2,70 @@
 title: Home
 layout: home
 ---
+<!--kolme tekstikenttää päällekkäin-->
+<html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+:root {
+  --yle-blue-color:             rgb(0, 180, 200);
+  --violet-color:               rgb(124, 89, 250);
+  --deep-blue-color:            rgb(19, 22, 37);
+  --deep-blue-alpha-color:      rgba(19, 22, 37, 0.8);
+  --deep-blue-alpha-less-color: rgba(19, 22, 37, 0.6);
+  --black-color:                rgb(0, 0, 0);
+  --white-color:                rgb(255, 255, 255);
+  --breaking-color:             rgb(233, 14, 67);
+}
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+.main {
+  display: flex;
+  justify-content: center;
+}
 
+.planssi1 {
+  display: flex;
+  flex-direction: column;
+  background: var(--deep-blue-color);
+  padding: 1em;
+  margin: 1em .25em 1em .25em;
+  align-items: right;
+  border-radius: 0.2vw;
+  font-weight: 700;
+  color: white;
+  font-family: "Montserrat";
+  overflow: hidden;
+}
+.kentat {
+  padding: 1em 1em 1em 1em;
+}
+
+.kentta_1 {
+  background: var(--yle-blue-color);
+  padding-right: 1em;
+  text-align: left;
+}
+
+.kentta_2 {
+  background: var(--violet-color);
+  padding-right: 1em;
+  text-align: left;
+}
+
+.kentta_3 {
+  background: var(--breaking-color);
+  padding-right: 1em;
+  text-align: left;
+}
+</style>
+<div id="main" class="main">
+  <div class="planssi1">
+    <div class="kentat kentta_1"><div id="f0">Kenttä 1</div></div>
+    <div class="kentat kentta_2"><div id="f1">Kenttä 2</div></div>
+    <div class="kentat kentta_3"><div id="f2">Kenttä 3</div></div>
+  </div>
+</div>
+</html>
 More specifically, the created site:
 
 - uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
