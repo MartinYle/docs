@@ -159,7 +159,7 @@ layout: home
   max-height: 100%;
 }
 </style>
-##Kolme tekstikenttää päällekkäin
+## Kolme tekstikenttää päällekkäin
 <div id="main" class="main">
   <div class="planssi1">
     <div class="kentat kentta_1"><div id="f0">Kenttä 1</div></div>
