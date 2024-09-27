@@ -2,6 +2,16 @@
 title: Home
 layout: home
 ---
+
+|x|<div id="main" class="main">
+  <div class="planssi1">
+    <div class="kentat kentta_1"><div id="f0">Kenttä 1</div></div>
+    <div class="kentat kentta_2"><div id="f1">Kenttä 2</div></div>
+    <div class="kentat kentta_3"><div id="f2">Kenttä 3</div></div>
+  </div>
+</div>|
+|y|z|
+
 <!--kolme tekstikenttää päällekkäin-->
 <html>
 <style>
