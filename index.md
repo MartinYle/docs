@@ -3,16 +3,12 @@ title: Home
 layout: home
 ---
 
-|x|<div id="main" class="main">
-  <div class="planssi1">
-    <div class="kentat kentta_1"><div id="f0">Kenttä 1</div></div>
-    <div class="kentat kentta_2"><div id="f1">Kenttä 2</div></div>
-    <div class="kentat kentta_3"><div id="f2">Kenttä 3</div></div>
-  </div>
-</div>|
-|y|z|
-
-<!--kolme tekstikenttää päällekkäin-->
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
 <html>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
